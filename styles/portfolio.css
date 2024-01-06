@@ -44,8 +44,11 @@ nav li a{
     color: white;
     font-weight: 900;
 }
-.header{
+.hader{
     background: #FFF8F3;
+    background-image: url('../images/developer.png');
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 .banner{
     padding: 30px 0px 0px 150px;
@@ -61,6 +64,7 @@ nav li a{
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: contain;
+  
     
    
 }
@@ -166,5 +170,135 @@ font-weight: 700;
     color: #757575;
 font-size: 16px;
 font-weight: 400;
+
+}
+.resume-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin: 130px 0;
+}
+.resume-colum-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-discription{
+   
+}
+.resume-colum{
+   
+}
+.colum-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.colum-first-title{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+margin-top: 0px;
+}
+.colum-second-title{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+margin-top: 0px;
+}
+
+.colum-discription{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resume-discuption hr{
+    margin: 30px;
+}
+.primary-btn{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+}
+.download-cv{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+margin-top: 50px;
+}
+.footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-discription{
+    color: #474747;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+
+
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+}
+.inp{
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+background: #FFF;
+border: 0;
+
+}
+.ptn{
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+background: #FFF;
+border: 0;
+
+}
+textarea {
+    width: 461px;
+height: 180px;
+border-radius: 5px;
+background: #FFF;
+border: 0;
+}
+.sbg{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
 
 }
