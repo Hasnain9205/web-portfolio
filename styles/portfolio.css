@@ -15,7 +15,7 @@ nav{
     color: black;
     text-align: center;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 45px;
 
 }
 
@@ -27,7 +27,7 @@ nav > ul{
 }
 nav li{
     padding: 20px;
-    color: var(--Dark-02, #474747);
+    color: #474747;
   
 }
 nav li a{
@@ -48,17 +48,60 @@ nav li a{
     background: #FFF8F3;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .pic{
     width: 584px;
     height: 676px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    
    
 }
 .banner .nam{
-    font-size: 185px;
-    font-weight: 800px;
+    font-size: 65px;
+    font-weight: 700px;
+    margin-bottom: 2px;
+}
+.banner .fnam{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner .pnam{
+    color: #757575;
+    color: #757575;
+    font-weight: 400;
+}
+.banner-contant{
+    max-width: 500px;
+}
+
+/* main contant styles */
+
+/* about sections styles */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.secton-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
